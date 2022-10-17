@@ -21,6 +21,10 @@
     position: relative;
     text-align: center;
 }
+#main-navbar ul li a:hover {
+    background-color:#000;
+    text-decoration: underline overline;
+}
 #sidebar {
   background-color: red;
   position: fixed;
@@ -36,4 +40,7 @@
   color: #fff;
   text-align: center;
   text-decoration: none;
+}
+#main-navbar ul li a:hover {
+    background-color:#000;
 }
