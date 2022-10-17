@@ -1,0 +1,114 @@
+/* stylelint-enable */
+* {
+  box-sizing: border-box;
+}
+ol, ul{
+  list-style: none;
+  
+}
+a{
+    color: inherit;
+}
+section a {
+    color: #FF4433;
+}
+section p {
+    float: none!important;
+}
+section h1 {
+    background-color: #7F00FF;
+    color: #000000;
+}
+section h2 {
+    background-color: #00FFFF;
+    font-size: 2em;
+    color: #000000;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+section h3 {
+    background-color: #98FB98;
+    color: #000000;
+}
+/* House styles below */
+@font-face {
+    font-family: "American Typewriter";
+}
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #D3D3D3;
+    font-size: 1em;
+    font-weight: 500;
+    /* font-size: 1.5rem; */
+}
+
+header{
+  width: 100%;
+}
+header nav ul{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    width: max-content;
+}
+header nav ul li{
+  margin-bottom: 5px;
+  color: #FF0000;
+  width: max-content;
+}
+header nav ul li:nth-child(1){
+  float: left;
+}
+header nav ul li:nth-child(2){
+  float: right;
+}
+header nav ul li:nth-child(3){
+  float: right;
+}
+h1, h2, h3, h4, h5{
+  font-weight: bold;
+}
+h1{
+  font-size: 3em;
+  line-height:2.5em;
+}
+}
+h3{
+  font-size: 1.266em;
+  line-height:1.3em;
+}
+h4{
+  font-size: 1.125em;
+}
+li{
+  padding-left: 10px;
+  font-weight: bold;
+}
+p ~ p{
+  padding-top: 5px;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    font-weight: bold;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+nav{
+  height: 30px;
+  margin-top: 10px;
+}
+section{
+  padding: 10px 0;
+}
+section section{
+  padding: 0 10px;
+}
+main{
+  padding: 0 10px;
