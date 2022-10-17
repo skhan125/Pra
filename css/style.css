@@ -3,51 +3,59 @@
     position: relative;
 }
 #navbar ul {
-  list-style-type: none;
   padding: 0;
   margin: 0;
+  list-style-type: none;
   overflow: hidden;
   display: inline-block
 }
+
 #navbar ul li {
-    float: left;
+  float: left;
 }
+
 #navbar ul li a {
+  padding: 10px 20px;
   display: block;
-  padding:10px 20px;
   color: #fff;
   text-decoration: none;
 }
-#navbar-container {
-    width: 100%;
-    position: relative;
-    text-align: center;
-}
+
 #navbar ul li a:hover {
-    background-color:#000;
-    text-decoration: underline overline;
+  text-decoration: underline overline;
+  background-color: #000;
 }
+
+#navbar-container {
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+#sidebar-container ul {
+  padding: 0;
+}
+
+#sidebar-container ul li {
+  list-style-type: none;
+}
+
+#sidebar-container ul li a {
+  display: block;
+  color: #fff;
+  padding: 15px 0;
+  text-decoration: none;
+  text-align: center;
+}
+
+#sidebar-container ul li a:hover {
+  background-color: #000;
+}
+
 #sidebar {
-  background-color: red;
-  position: fixed;
-  right: 0;
   width: 20%;
   height: 100%;
-}
-#sidebar-container ul{
-    padding: 0;
-}
-#sidebar-container ul li{
-    list-style-type: none;
-}
-#sidebar-container ul li a {
-  padding: 0;
-  display: block;
-  padding: 15px 0;
-  color: #fff;
-  text-align: center;
-  text-decoration: none;
-}
-#sidebar ul li a:hover {
-    background-color:#000;
+  position: fixed;
+  background-color: red;
+  right: 0;
 }
