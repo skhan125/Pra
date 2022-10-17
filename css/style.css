@@ -32,9 +32,11 @@
   width: 20%;
   height: 100%;
 }
+#sidebar-container ul li{
+    list-style-type: none;
+}
 #sidebar-container ul li a {
   padding: 0;
-  list-style-type: none;
   display: block;
   padding: 15px 0;
   color: #fff;
