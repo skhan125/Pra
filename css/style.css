@@ -16,6 +16,11 @@
     background-color: blue;
     position: relative;
 }
+#mainnavbar-container {
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
 #sidebar-container ul li a {
   padding: 0;
   list-style-type: none;
