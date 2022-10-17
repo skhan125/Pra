@@ -1,18 +1,18 @@
-#main-navbar{
+#navbar{
     background-color: blue;
     position: relative;
 }
-#main-navbar ul {
+#navbar ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
     overflow: hidden;
     display: inline-block
 }
-#main-navbar ul li {
+#navbar ul li {
     float: left;
 }
-#main-navbar ul li a {
+#navbar ul li a {
   display: block;
   padding:10px 20px;
   color: #fff;
@@ -23,7 +23,7 @@
     position: relative;
     text-align: center;
 }
-#main-navbar ul li a:hover {
+#navbar ul li a:hover {
     background-color:#000;
     text-decoration: underline overline;
 }
@@ -45,6 +45,6 @@
   text-align: center;
   text-decoration: none;
 }
-#main-navbar ul li a:hover {
+#sidebar ul li a:hover {
     background-color:#000;
 }
