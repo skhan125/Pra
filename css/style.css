@@ -3,11 +3,11 @@
     position: relative;
 }
 #navbar ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    overflow: hidden;
-    display: inline-block
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  display: inline-block
 }
 #navbar ul li {
     float: left;
@@ -33,6 +33,9 @@
   right: 0;
   width: 20%;
   height: 100%;
+}
+#sidebar-container ul{
+    padding: 0;
 }
 #sidebar-container ul li{
     list-style-type: none;
