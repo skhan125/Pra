@@ -12,6 +12,10 @@
   color: #fff;
   text-decoration: none;
 }
+#main-navbar{
+    background-color: blue;
+    position: relative;
+}
 #sidebar-container ul li a {
   padding: 0;
   list-style-type: none;
