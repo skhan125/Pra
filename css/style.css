@@ -1,9 +1,9 @@
-#navbar {
+#main-navbar {
   background-color: blue;
   overflow: hidden;
 }
 
-#navbar ul {
+#main-navbar ul {
   position: relative;
   list-style-type: none;
   margin: 0;
@@ -12,7 +12,7 @@
   text-decoration: none;
 }
 
-#navbar ul li {
+#main-navbar ul li {
   float: left;  
   position: relative;
 }
@@ -33,10 +33,6 @@
 #navbar-container ul li a:hover {
   background-color: #000;
   text-decoration: underline overline;
-}
-
-#onpage {
-  text-decoration: none;
 }
 
 #sidebar {
