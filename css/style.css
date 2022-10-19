@@ -33,6 +33,13 @@
   text-align: center;
 }
 
+#sidebar {
+  background-color: red;
+  position: fixed;
+  right: 0;
+  width: 20%;
+  height: 100%;
+}
 #sidebar-container ul {
   padding: 0;
 }
@@ -51,12 +58,4 @@
 
 #sidebar-container ul li a:hover {
   background-color: #000;
-}
-
-#sidebar {
-  background-color: red;
-  position: fixed;
-  right: 0;
-  width: 20%;
-  height: 100%;
 }
