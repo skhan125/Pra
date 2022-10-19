@@ -1,20 +1,18 @@
 #main-navbar {
   background-color: blue;
-  overflow: hidden;
+  position: relative;
 }
 
 #main-navbar ul {
-  position: relative;
+  overflow: hidden;
   list-style-type: none;
   margin: 0;
   padding: 0;
-  display: block;
-  text-decoration: none;
+  display: inline-block
 }
 
 #main-navbar ul li {
   float: left;  
-  position: relative;
 }
 
 #navbar-container {
@@ -28,7 +26,6 @@
   padding: 10px 20px;
   color: #fff;
   text-decoration: none;
-  text-align: center;
 }
 
 #navbar-container ul li a:hover {
